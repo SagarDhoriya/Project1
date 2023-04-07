@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 175px;
+    height: 70px;
+}
+.nav-item{
+    list-style: none;
+    gap: 50px;
+    color: aliceblue;
+    justify-content: center;
+}
+.nav-link {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-weight: 500;
+  }
+  .nav-link:hover{
+    color: aliceblue;
+  }
+  .nav-link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid white;
+    transition: 0.4s;
+  }
+  .nav-link:hover:after {
+    width: 100%;
+  }
+ul{
+    margin-bottom:0rem ;
+}
+.nav{
+    align-items: center;
+    
+}

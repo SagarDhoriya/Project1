@@ -1,0 +1,29 @@
+.button{
+    text-decoration: none;
+    
+}
+.Links{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.productImage{
+    width: 50%;
+}
+.Productdetails{
+    position: relative;
+}
+
+
+h1{
+    text-align: center;
+}
+.date{
+    font-weight: 500;
+}
